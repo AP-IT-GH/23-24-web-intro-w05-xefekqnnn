@@ -1,3 +1,4 @@
+
 html, body {
   box-sizing: border-box;
   background-color: #fff;
@@ -15,4 +16,61 @@ a, a:hover {
 
 .koffiebruin{
   color: #ca8446;
+}
+
+.navbar {
+  background-color: #f8f9fa; 
+  padding: 10px 0; 
+}
+
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (min-width: 768px) {
+  .navbar {
+    padding: 20px 0;
+  }
+}
+
+.navbar-brand img {
+  height: 50px;
+}
+
+.coffee-color {
+  color: #6f4e37;
+}
+
+h2.ondertitel {
+  text-transform: uppercase;
+  font-size: 1.5rem; 
+  font-weight: bolder;
+  padding-top: 1rem; 
+}
+
+.shop-item h2 {
+  text-transform: uppercase;
+  font-size: 2.5rem; 
+  font-weight: bolder;
+  padding-top: 1rem; 
+}
+
+figcaption.small.h6 {
+  font-size: .75rem; /* Voorbeeld; Bootstrap's 'small' klasse doet iets vergelijkbaars */
+}
+
+.ondertitel {
+  text-transform: uppercase;
+  font-size: 1.5rem; /* Of equivalent aan Bootstrap's font-size-6 */
+  font-weight: bolder;
+  padding-top: 1rem; /* Bootstrap's spacing-3 equivalent */
+}
+
+.icon-kleur {
+  font-size: 2rem; /* Font-size 3 in Bootstrap termen is niet specifiek; dit is een schatting */
+  color: #6f4e37; /* Koffiebruine kleur */
 }
